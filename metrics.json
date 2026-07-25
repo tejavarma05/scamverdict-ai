@@ -1,0 +1,18 @@
+{
+  "n_total": 17879,
+  "n_test": 2682,
+  "positive_rate": 0.0484,
+  "trivial_baseline_accuracy": 0.9516,
+  "threshold": 0.5188,
+  "precision_fraudulent": 0.935,
+  "recall_fraudulent": 0.8846,
+  "f1_fraudulent": 0.9091,
+  "pr_auc": 0.9492,
+  "roc_auc": 0.9909,
+  "confusion_matrix": {
+    "tn": 2544,
+    "fp": 8,
+    "fn": 15,
+    "tp": 115
+  }
+}
