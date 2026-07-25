@@ -16,7 +16,12 @@ import numpy as np
 import streamlit as st
 
 MODEL_PATH = Path("models/scamverdict.joblib")
+if not MODEL_PATH.exists():
+    MODEL_PATH = Path("scamverdict.joblib")
 METRICS_PATH = Path("models/metrics.json")
+if not METRICS_PATH.exists():
+    METRICS_PATH = Path("metrics.json")
+
 
 st.set_page_config(page_title="ScamVerdict AI", page_icon="🛡️", layout="centered")
 
