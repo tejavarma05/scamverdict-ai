@@ -1,0 +1,1 @@
+# scamverdict-ai
